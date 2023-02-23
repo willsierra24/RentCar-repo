@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,400;0,600;0,700;1,100;1,600&family=Montserrat:wght@300;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap'); */
+:root {
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+  /* font-family: "Reem Kufi", sans-serif !important; */
+  /* font-family: "Montserrat", sans-serif;
+  font-family: "Albert Sans", sans-serif; */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #fb8500;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #ffb703;
+  border-radius: 7px;
+  padding: 6px;
+  border: none;
+  color: #023047;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219ebc;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+
+a {
+  font-weight: 500;
+  color: #fff;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ffb703;
+}
+
+a.active {
+  color: #ffb703;
+}

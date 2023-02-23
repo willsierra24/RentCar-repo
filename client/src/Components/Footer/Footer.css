@@ -1,0 +1,17 @@
+/*Card footer*/
+.social-network {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    gap: 10px;
+  }
+  .facebook, .twitter, .mail, .instagram {
+    list-style: none;
+  }
+  .facebook, .twitter, .mail, .instagram svg {
+    display: block;
+    height: 28px;
+    width: 28px;
+    fill: #f5f5f6;
+    cursor: pointer;
+  }

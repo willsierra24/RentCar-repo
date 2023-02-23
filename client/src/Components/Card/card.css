@@ -1,0 +1,84 @@
+.cardd {
+  border: 1px solid #858585cc;
+  border-top: 0px solid #858585cc;
+  border-left: 0px solid #858585cc;
+  border-right: 0px solid #858585cc;
+  width: 550px;
+  height: 210px;
+  display: grid;
+  grid-template-columns: 2% 36% 45% 15% 2%;
+  margin-top: 70px;
+}
+.text1 {
+  font-weight: bold;
+}
+.conText {
+  display: grid;
+  grid-template-rows: 23% 23% 23% 23%;
+}
+.text3 {
+  font-weight: bold;
+  font-size: 140%;
+}
+.text1,
+.text2,
+.text3,
+.text4 {
+  font-family: "RocknRoll One", sans-serif;
+  height: 18px;
+  color: #354f52cc;
+  margin: 10px;
+}
+.text4 {
+  margin: 120%;
+  font-size: 91%;
+  line-height: 98%;
+}
+.texts {
+  display: grid;
+  grid-template-rows: 13% 47% 18% 10%;
+}
+.texts div {
+  margin: 2px;
+}
+.img {
+  height: 125px;
+  width: 160px;
+  border-radius: 20px;
+}
+.link {
+  text-decoration: none;
+}
+.start {
+  color: #ffb703;
+  font-size: 150%;
+  cursor: pointer;
+}
+.cardPart3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.heart {
+  color: #354f52cc;
+  font-size: 150%;
+  text-align: right;
+  cursor: pointer;
+}
+.heart-fill {
+  color: #ff3252;
+}
+.heart:hover {
+  opacity: 0.8;
+  color: #ff3252;
+  transform: scale(0.93, 0.93) translateY(2px);
+}
+.Desc {
+  color: #fb8500;
+}
+.DescVal {
+  color: #fb8500;
+  font-size: 250%;
+}
+.tittleCar {
+  width: 50%;
+}

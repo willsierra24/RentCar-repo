@@ -1,0 +1,184 @@
+.ccontainer18 {
+  margin: 23%;
+ 
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: #070707cc;
+  border-color: black;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 15px;
+}
+
+.ccontainer2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cbrand {
+  margin-bottom: 40px;
+}
+
+.cfeature {
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.ctitle {
+  display: inline;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 20px;
+}
+
+.cdescription {
+  font-family: "RocknRoll One", sans-serif;
+  display: inline;
+}
+.ccontainer1a{
+  margin: 5%;
+  margin-top: 0px;
+  text-align:center;
+}
+.crow1{
+  height: 320px;
+  display: grid;
+  grid-template-columns: 55% 40% 5%;
+}
+.crow1colum2{
+  display: grid;
+  grid-template-rows: 23% 7% 7% 7% 7% 7% 7% 7% ;
+
+}
+.crow2tru, .crow2fal{
+  display: grid;
+  grid-template-columns:60% 35% 25PX 25PX;
+  border: 1px solid #858585cc;
+  border-top: 0px solid #858585cc;    
+  border-left: 0px solid #858585cc;
+  border-right: 0px solid #858585cc;
+  align-items: center;
+  margin-top: 20px;
+}
+.crow2tru img, .crow2fal img{
+  width: 50px;
+  height: 40px;
+}
+.crow2tru div, .crow2fal div {
+  margin-right: 15px;
+}
+
+.crow2tru{
+  color: rgb(0, 0, 0);
+}
+.crow2fal{
+  color: rgb(187, 187, 187);
+}
+
+
+#cacceTittle{
+  color: #FB8500;  
+  border: 0px solid #858585cc;
+}
+.cbutondetail{
+  display: flex;
+  justify-content: center;
+}
+.cbutondetail button {
+  display: flex;
+  justify-content: center;
+}
+#cdescri{
+  height: 60px;  
+  font-weight: normal;
+  display: flex;
+  align-items: flex-end;
+}
+#csepara{
+  width: 50%;
+}
+#carButton{
+  display: grid;
+  grid-template-columns: 25% 50%;
+
+}
+#fra{
+  display: grid;
+  grid-template-columns: 74% 40%;
+  color: gray;
+}
+.mercadopago{
+  width: 600px;
+}
+.lafra{
+font-weight: normal;
+}
+.reservedTittle{
+  font-size: 200%;
+  font-weight: 900;
+  color:#023047;
+  margin-top:20px
+}
+
+
+#carButton div{
+  width: 22px;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  cursor: pointer;
+
+}
+#shoppingGroup{
+  text-align:left ;
+}
+
+.shoppingGroup{  
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.shoppingTittle{
+  font-size: 110%;
+  color:#023047;
+  text-align: justify;
+  font-weight: bold;
+}
+.shoppingText{
+  margin-top: 2px;
+  color:#FB8500;
+  
+  font-size: 110%;
+  text-align:right; 
+}
+
+.titleText{
+  font-size: 147%;
+  color:#023047;
+  font-weight:bold  
+}
+#justi{
+  text-align: justify;
+}
+#dni{
+  text-align:left;
+  font-weight: bold;
+  color:#023047;
+}
+#boxdni{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #858585cc;
+  border-radius: 3px;
+  font-weight:normal;
+  outline: none;
+  color:#023047;
+  padding-left: 10px;
+}
+#nameShopping{
+  text-align: left;
+}
+#preFra{
+  width: 230px;
+}

@@ -1,0 +1,38 @@
+.pagination {
+    position: absolute;
+    top: 1370%;
+	bottom: 0;
+	background: transparent;
+    color: #ffffff;
+	width: 800px;
+    height: 100px;
+	display: flex;  
+    justify-content:center;  
+}
+.pagine{
+    color: #023047;    
+}
+.item button{
+    color: #023047;
+    background-color: #ffb703;
+    border: none;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.item button:hover {
+    cursor: pointer;
+    color: #fff;
+    font-size: 110%;
+    text-shadow: 0 0 5px #fff;   
+    background-color: #219EBC; 
+}
+.item button:focus {
+    background-color: #219EBC;
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
+
+
+}

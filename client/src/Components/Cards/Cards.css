@@ -1,0 +1,23 @@
+.cards{
+    position: absolute;
+    border-radius: 5PX;
+    width: 98%;
+    height: 260px;
+    display: grid;
+	  grid-template-columns: [x0] 1fr [x1] 1fr [x2] ;
+	  /* grid-template-rows: [y0] 1fr [y1] 1fr [y2]; */
+}
+.tittleCar{
+    margin: 10px;
+    color: #5e768d;
+    font-size:25px;
+    font-weight:bold
+}
+
+.loading{
+    display:flex;
+    width:900px;   
+    justify-content:center;
+    margin-top:30px
+
+}

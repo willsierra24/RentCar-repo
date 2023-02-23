@@ -1,0 +1,180 @@
+/* .container1{
+    position: absolute;
+    margin-top: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255,0.3);
+    color: #070707cc;
+    border-color: black;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 15px;
+} */
+.container1 {
+  margin: 8%;
+  margin-top: 6%;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: #070707cc;
+  border-color: black;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 15px;
+  padding-top: 40px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.brand {
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #fb8500;
+  font-weight: 900;
+}
+
+.feature {
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  display: inline;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 20px;
+  color: #131517;
+  font-weight: bold;
+}
+.title2 {
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 20px;
+  color: #131517;
+  font-weight: bold;
+}
+
+.description {
+  font-family: "RocknRoll One", sans-serif;
+  display: inline;
+}
+.container1a {
+  margin: 5%;
+  margin-top: 0px;
+}
+.row1 {
+  height: 320px;
+  display: grid;
+  grid-template-columns: 55% 40% 10%;
+}
+.row1colum2 {
+  display: grid;
+  grid-template-rows: 30% 70%;
+}
+.row1colum21 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.row1colum211 {
+  display: grid;
+  grid-template-rows: 13% 13% 13% 13%;
+}
+.row1colum212 {
+  display: grid;
+  grid-template-rows: 26% 13% 13% 13%;
+}
+.row2 {
+  display: grid;
+  grid-template-columns: 6% 22% 32% 8% 8% 8% 8% 8%;
+  border: 1px solid #858585cc;
+  border-top: 0px solid #858585cc;
+  border-left: 0px solid #858585cc;
+  border-right: 0px solid #858585cc;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.row2 img {
+  width: 60px;
+  height: 50px;
+}
+.row1 img {
+  width: 400px;
+  height: 300px;
+}
+#acceTittle {
+  color: #ff923c;
+  border: 0px solid #858585cc;
+}
+.row2 div {
+  margin-right: 15px;
+}
+.butondetail {
+  display: flex;
+  justify-content: center;
+}
+.butondetail button {
+  display: flex;
+  justify-content: center;
+}
+#descri {
+  font-weight: normal;
+  display: flex;
+  align-items: flex-end;
+}
+#separa {
+  width: 50%;
+}
+#black {
+  color: green;
+  text-align: center;
+}
+#gray {
+  color: #003566;
+  font-size: 18px;
+  font-weight: bold;
+}
+#gray,
+#black {
+  text-align: center;
+  border-radius: 4px;
+}
+#gray2,
+#black2 {
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 12%;
+  margin-bottom: 10px;
+}
+.form-date {
+  margin-bottom: 20px;
+  /* border: solid #ffb703 ; */
+  display: inline-block;
+  background-color: #023047;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.form-label {
+  color: white;
+  padding: 10px;
+}
+
+#form-submit {
+  /* background: white; */
+  background-color: #ffb703;
+  color: #003566;
+  margin-left: 2px;
+  border: solid 1px;
+}
+
+#form-submit:hover{
+  background-color: #ffb703;
+  color: #003566;
+  transition: 0.5s;
+}  
